@@ -14,7 +14,7 @@ if (nom == nom.length )
     Swal.fire({
         title: '¡Error!',
         text: 'Complete la primera casilla',
-        icon: 'success',
+        icon: 'error',
         confirmButtonText: '¡Aceptar!'
       });
 }
@@ -24,7 +24,7 @@ else if (ape == ape.length )
     Swal.fire({
         title: '¡Error!',
         text: 'Complete la segunda casilla',
-        icon: 'success',
+        icon: 'error',
         confirmButtonText: '¡Aceptar!'
       });
 }
@@ -34,7 +34,7 @@ else if (email == email.length)
     Swal.fire({
         title: '¡Error!',
         text: 'Complete la tercer casilla',
-        icon: 'success',
+        icon: 'error',
         confirmButtonText: '¡Aceptar!'
       });
 }
@@ -44,7 +44,7 @@ else if(cont == cont.length)
     Swal.fire({
         title: '¡Error!',
         text: 'Complete la cuartaa casilla',
-        icon: 'success',
+        icon: 'error',
         confirmButtonText: '¡Aceptar!'
       });
 }

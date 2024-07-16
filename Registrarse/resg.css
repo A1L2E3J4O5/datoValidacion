@@ -1,0 +1,53 @@
+body
+{
+    margin: 10%;
+}
+.container
+{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    border: solid 1px red;
+    padding: 3%;
+}
+h1
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+}
+form
+{
+    grid-row: 2;
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.d
+{
+    color: red;
+    grid-column: 2;
+    border: solid 1px ;
+}
+.i
+{
+    grid-column: 1;      
+    color: aqua;
+    border: solid 1px ;
+    margin-right: 130px;
+    
+}
+button
+{
+    grid-row: 3;
+    margin: 3%;
+    height: 50px;
+    width: 500px;
+    margin-left: 20%;
+}
