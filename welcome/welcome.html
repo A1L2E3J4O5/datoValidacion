@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>--> 
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="welcome.css">
 </head>
 <body>
-	<section class="M">
-		<h4>Bienvenido </h4>
-        <button type="submit" class="bton" onclick="location.href='/login/index.html'">Login</button> <br> <br>
-        <button type="submit" class="bton" onclick="location.href='/Registrarse/resg.html'">Registrarse</button> <br> <br>
-		<p>Estoy de acuerdo con <a href="/tyc/tyc.html">Términos y condiciones</a> </p> <br>
-	</section>
-
+    <div class="container">
+        <section class="text-center my-5 p-4 border rounded bg-light">
+            <h4>Bienvenido</h4>
+            <button type="button" class="btn btn-primary my-2 w-100" onclick="location.href='/login/index.html'">Login</button>
+            <button type="button" class="btn btn-secondary my-2 w-100" onclick="location.href='/Registrarse/resg.html'">Registrarse</button>
+            <p class="mt-3">Estoy de acuerdo con <a href="/tyc/tyc.html">Términos y condiciones</a></p>
+        </section>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

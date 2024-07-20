@@ -13,8 +13,9 @@ h4
 body
 {
 	background-color: #000000;
-	background-image:url(/IMG/2e9a4ea1-d66b-42a1-a772-11be59532d86\ \(1\).jpeg);
-	background-size: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
 }
 
 .MiEstilo {
@@ -27,6 +28,8 @@ body
 	font-family: 'calibri';
 	color: #ffff;
 	box-shadow: 2px 4px 15px #000000;
+	grid-column: 2;
+    grid-row: 1;
 }
 
 .MiEstilo h4 {

@@ -1,17 +1,19 @@
 body
 {
-    display: flex;
-    justify-content: center;
-}
-h4
-{
-    display: flex;
-    justify-content: center;
-}
-.M
-{
+    background-color: aqua;
     display: grid;
-    border: solid 1px #000;
-    margin: 150px;
-    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+
+.container
+{
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+

@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de inscripción</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="resg.css">
-    <style>
-
-
-    </style>
 </head>
 <body>
-
     <div class="container">
-        <h1>Formulario de inscripcion</h1>
+        <h1>Formulario de inscripción</h1>
         <form action="">
-            <a class="i">Primer nombre: <input type="text" value="" ></a> <br>
-            <a class="d">Segundo nombre: <input type="text" value="" placeholder=""></a> <br>
-            <a class="i">nombre de usuario: <input type="text" value="" placeholder=""></a><br>
-            <a class="d">numero de telefono: <input type="text" value="" placeholder=""></a> <br>
-            <a class="i">Confirme contraseña:<input type="text" value="" placeholder=""></a> <br>
-            <a class="d">Contraseña:<input type="text" value="" placeholder=" "></a> 
-         </form>
-         <button type="submit">Registrarse</button>
+            <a>Identificacion:<input required min="0"  id="ide" type="number" value="" ></a> <br>
+            <a>Nombres: <input id="nom" type="text" value=""required></a> <br>
+            <a>Apellidos: <input id="ape" type="text" value="" placeholder=""required> </a> <br>
+            <a>Correo Electrónico: <input id="CE" type="email" value=""required></a> <br>
+            <a>Nombre de usuario: <input id="nomU" type="text" value="" placeholder=""required></a><br>
+            <a>Confirme contraseña: <input id="cont2" type="password" value="" placeholder=""required></a> <br>
+            <a>Contraseña: <input id="cont" type="password" value="" placeholder=""required></a>
+        </form>
+        <button type="submit" onclick="return registro()">Registrarse</button>
+        <script src="resg.js"></script>
     </div>
 </body>
 </html>
